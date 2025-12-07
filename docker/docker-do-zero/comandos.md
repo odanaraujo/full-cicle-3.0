@@ -43,3 +43,7 @@
 3. **docker run -d -p 8080:80 nginx**
    1. Faz basicamente tudo que o passo 2 realiza, com a diferente que o novo parâmetro -d faz um detach e libera o terminal, em vez de deixar travado e logando.
    2. Ou seja, ele faz uma execução em segundo plano
+
+---
+
+[⬅️ Voltar para o início](./hello_word.md)

@@ -15,3 +15,7 @@ Um exemplo de como mapear volume com o comando **mount**
 4. As vezes, trabalhando com vários sistemas e processos do docker, sentimos a máquina ficando lenta. Isso pode acontecer por causa dos arquivos de volumes acumulados na nossa máquina
    1. Para esvaziar esses volumes que não estamos mais utilizando, podemos executar:
       1. **docker volume prune**
+
+---
+
+[⬅️ Voltar para o início](./hello_word.md)
