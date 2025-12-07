@@ -42,7 +42,7 @@ São essenciais para gerenciar como os dados são armazenados, acessados e manip
 
 Uma imagem Docker é uma representação estática do sistema de arquivos que inclui a aplicação e todas as suas dependências. Quando um container é iniciado a partir de uma imagem, um sistema de arquivos somente leitura é criado a partir da imagem. Qualquer alteração feita no container (como a criação de novos arquivos ou a modificação de um arquivo existente) é feita na camada "top" que é gravável, permitindo que as alterações não afetem a imagem original.
 
-![overlay file system](/docker/introducao/img/overlay_file_system.png)
+![overlay file system](./img/overlay_file_system.png)
 
 ## Imagens
 

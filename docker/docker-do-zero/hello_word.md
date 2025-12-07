@@ -4,4 +4,4 @@
 
 ---
 
-![Principais comandos](/docker/docker-do-zero/comandos.md)
+[Principais comandos](./comandos.md)

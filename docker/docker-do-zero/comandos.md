@@ -7,11 +7,11 @@
    2. O binário é executado
    3. container morre
 
-![Execução do comando](/docker/docker-do-zero/img/hello-word.png)
+![Execução do comando](./img/hello-word.png)
 
 3. **docker ps -a** → mostra todos os containers ativos e os que já executaram e morreram, em algum momento.
 
-![Execução do docker ps -a](/docker/docker-do-zero/img/docker-ps-a.png)
+![Execução do docker ps -a](./img/docker-ps-a.png)
 
 4. **docker run -it ubuntu bash**:
    1. **docker run**: executa o container
@@ -21,7 +21,7 @@
       1. **ubuntu:version**: podemos passar uma versão pós imagem. Caso não informamos, ele pega o latest.
    4. **bash**: Comando que vai ser executado no container depois que baixar a imagem.
 
-![comando para instalar o ubuntu](/docker/docker-do-zero/img/ubuntu-it.png)
+![comando para instalar o ubuntu](./img/ubuntu-it.png)
 
 1. **docker run -it --rm ubuntu bash**:
    1. abre o modo interativo da imagem ubuntu.
@@ -44,12 +44,12 @@
    1. Faz basicamente tudo que o passo 2 realiza, com a diferente que o novo parâmetro -d faz um detach e libera o terminal, em vez de deixar travado e logando.
    2. Ou seja, ele faz uma execução em segundo plano
 
-![Acessando e alterando arquivos no container](/docker/docker-do-zero/acessando_alterando_arquivos_container.md)
+[Acessando e alterando arquivos no container](./acessando_alterando_arquivos_container.md)
 
 ## Iniciando com bind mounts
 
-![trabalhando com bind mount](/docker/docker-do-zero/bound_mount.md)
+[trabalhando com bind mount](./bound_mount.md)
 
 ## Iniciando com Volume
 
-![trabalhando com volumes](/docker/docker-do-zero/volumes.md)
+[trabalhando com volumes](./volumes.md)
