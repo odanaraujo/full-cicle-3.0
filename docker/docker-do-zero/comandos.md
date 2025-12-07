@@ -43,13 +43,3 @@
 3. **docker run -d -p 8080:80 nginx**
    1. Faz basicamente tudo que o passo 2 realiza, com a diferente que o novo parâmetro -d faz um detach e libera o terminal, em vez de deixar travado e logando.
    2. Ou seja, ele faz uma execução em segundo plano
-
-[Acessando e alterando arquivos no container](./acessando_alterando_arquivos_container.md)
-
-## Iniciando com bind mounts
-
-[trabalhando com bind mount](./bound_mount.md)
-
-## Iniciando com Volume
-
-[trabalhando com volumes](./volumes.md)
