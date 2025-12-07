@@ -2,11 +2,11 @@
 
 ## Hello World
 
----
-
 [Principais comandos](./comandos.md)
 
----
+## Removendo um container
+
+[Removendo um container](./removendo_containers.md)
 
 ## Acessando e alterando arquivos no container
 
