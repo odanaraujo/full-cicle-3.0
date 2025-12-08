@@ -9,3 +9,7 @@ Ao baixar a imagem, podemos executar o -> docker images - para listar todas as i
 Para deletar uma imagem, precisamos executar: docker rmi <NAME_IMAGE>.
 
 [criando a primeira imagem com Dockerfile](./criando_imagem_dockerfile.md)
+
+## Entrypoint x CMD
+
+[](./entrypoint_cmd)
