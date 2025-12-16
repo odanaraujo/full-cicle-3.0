@@ -12,4 +12,4 @@ Para deletar uma imagem, precisamos executar: docker rmi <NAME_IMAGE>.
 
 ## Entrypoint x CMD
 
-[](./entrypoint_cmd)
+[Entendendo Entrypoint x CMD](./entrypoint_cmd)
